@@ -104,6 +104,9 @@ st.info(
     "La superficie total de parques urbanos alcanza aproximadamente 21 499 m² para una "
     "población cercana a 17 656 habitantes. Este resultado sugiere una disponibilidad "
     "limitada de áreas verdes urbanas para la población residente."
+
+    "Cabe destacar que el en polígono correspondiente al parque de los Angeles "
+    "se debe actualizar las áreas verdes reales en la actualidad debido a cambios desde que se realizó la toma de datos."
 )
 
 
@@ -379,5 +382,27 @@ st.markdown("""
 - El parque **Los Ángeles** concentra el **28.69%** de toda el área verde urbana registrada.
 - Los parques presentan una distribución desigual tanto en tamaño como en localización.
 - La mayoría de los puntos censales registran entre **30 y 90 habitantes**, aunque existen sectores que alcanzan hasta **501 habitantes**.
-- La integración de Pandas, Matplotlib, Folium y Streamlit permitió desarrollar una aplicación interactiva para apoyar el análisis de accesibilidad a parques urbanos.
+
+### Análisis
+- Se evidenció una distribución desigual de las áreas verdes urbanas dentro de la ciudad de Heredia. Aunque existen diez parques urbanos 
+distribuidos en distintos sectores, la superficie disponible se concentra principalmente en pocos espacios. El Parque Los Ángeles aporta 
+aproximadamente **6 168 m²**, equivalente al **28,69%** del área total de parques analizados, mientras que el Parque Fortín apenas representa el **3,26%** 
+con **700 m²**. Esta diferencia demuestra que la oferta de espacios recreativos no se distribuye de manera homogénea en el territorio.
+- Los datos censales muestran una importante variabilidad en la distribución de la población. La mayoría de los puntos censales presentan 
+entre **30 y 90 habitantes**, pero existen sectores con concentraciones mucho mayores, alcanzando un **máximo de 501 habitantes**. Los mapas permitieron 
+identificar que algunas de estas concentraciones poblacionales se localizan en áreas donde la presencia de parques es más limitada, lo que sugiere posibles 
+desigualdades en el acceso a espacios verdes urbanos.
+- El indicador calculado de aproximadamente 1,22 m² de parque por habitante refleja una disponibilidad relativamente baja de áreas verdes en comparación 
+con referencias internacionales utilizadas en planificación urbana. Por ejemplo, la Organización Mundial de la Salud ha señalado históricamente valores 
+de referencia cercanos a 9 m² por habitante como una meta deseable para garantizar beneficios ambientales y recreativos. Aunque este valor debe interpretarse
+con cautela debido a la escala y cobertura de los datos utilizados, constituye una señal de que la disponibilidad de áreas verdes en la ciudad podría 
+resultar insuficiente para atender adecuadamente a toda la población.
+- Los análisis espaciales permitieron identificar que la ubicación de los parques no siempre coincide con las zonas de mayor concentración poblacional. 
+Esta situación puede generar diferencias en la accesibilidad efectiva de los habitantes a espacios públicos de recreación y esparcimiento. 
+Por tanto, futuras estrategias de planificación urbana podrían priorizar la creación o ampliación de áreas verdes en aquellos sectores donde 
+la densidad poblacional es mayor y la oferta de parques resulta más reducida.
+-Como trabajo futuro, el análisis podría fortalecerse incorporando información de la red vial peatonal, tiempos de desplazamiento, radios de servicio y
+datos demográficos más recientes. Asimismo, la inclusión de variables socioeconómicas permitiría evaluar con mayor precisión las condiciones de 
+accesibilidad y equidad en el acceso a espacios verdes dentro de la ciudad de Heredia.
 """)
+
