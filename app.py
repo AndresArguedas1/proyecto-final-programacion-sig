@@ -103,7 +103,7 @@ st.info(
     f"La ciudad dispone aproximadamente de {m2_hab:.2f} m² de parque por habitante. "
     "La superficie total de parques urbanos alcanza aproximadamente 21 499 m² para una "
     "población cercana a 17 656 habitantes. Este resultado sugiere una disponibilidad "
-    "limitada de áreas verdes urbanas para la población residente."
+    "limitada de áreas verdes urbanas para la población residente. "
 
     "Cabe destacar que el en polígono correspondiente al parque de los Angeles "
     "se debe actualizar las áreas verdes reales en la actualidad debido a cambios desde que se realizó la toma de datos."
