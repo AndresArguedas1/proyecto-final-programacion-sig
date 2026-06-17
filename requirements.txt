@@ -5,5 +5,5 @@ matplotlib
 folium
 streamlit-folium
 shapely
-fiona
 pyproj
+pyogrio
