@@ -1,14 +1,3 @@
-import os
-import streamlit as st
-
-st.write("Archivos en directorio principal:")
-st.write(os.listdir("."))
-
-if os.path.exists("datos"):
-    st.write("Contenido de datos:")
-    st.write(os.listdir("datos"))
-
-
 import streamlit as st
 import pandas as pd
 import geopandas as gpd
