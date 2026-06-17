@@ -25,11 +25,20 @@ st.set_page_config(
 @st.cache_data
 def cargar_datos():
 
-    parques = gpd.read_file("datos/parques_urb.gpkg")
+    parques = gpd.read_file(
+        "datos/parques_urb.gpkg",
+        engine="pyogrio"
+)
 
-    censo = gpd.read_file("datos/censo.gpkg")
+    censo = gpd.read_file(
+        "datos/censo.gpkg",
+        enginge="pyogrio"
+)
 
-    limite = gpd.read_file("datos/heredia_limite.gpkg")
+    limite = gpd.read_file(
+        "datos/heredia_limite.gpkg",
+        engine="pyogrio"
+)
 
     return parques, censo, limite
 
