@@ -307,22 +307,6 @@ st.info(
 
 
 # ==================================================
-# CONCLUSIONES
-# ==================================================
-
-st.header("Conclusiones")
-
-st.markdown("""
-### Principales hallazgos
-
-- La ciudad de Heredia dispone aproximadamente de **1.22 m² de parque por habitante**.
-- El parque **Los Ángeles** concentra el **28.69%** de toda el área verde urbana registrada.
-- Los parques presentan una distribución desigual tanto en tamaño como en localización.
-- La mayoría de los puntos censales registran entre **30 y 90 habitantes**, aunque existen sectores que alcanzan hasta **501 habitantes**.
-- La integración de Pandas, Matplotlib, Folium y Streamlit permitió desarrollar una aplicación interactiva para apoyar el análisis de accesibilidad a parques urbanos.
-""")
-
-# ==================================================
 # MAPA 2
 # ==================================================
 
@@ -380,3 +364,20 @@ st.info(
     "urbanos permite identificar visualmente sectores donde la presión sobre las áreas verdes podría ser "
     "más elevada debido a la cercanía entre altas concentraciones poblacionales y una oferta limitada de parques."
 )
+
+
+# ==================================================
+# CONCLUSIONES
+# ==================================================
+
+st.header("Conclusiones")
+
+st.markdown("""
+### Principales hallazgos
+
+- La ciudad de Heredia dispone aproximadamente de **1.22 m² de parque por habitante**.
+- El parque **Los Ángeles** concentra el **28.69%** de toda el área verde urbana registrada.
+- Los parques presentan una distribución desigual tanto en tamaño como en localización.
+- La mayoría de los puntos censales registran entre **30 y 90 habitantes**, aunque existen sectores que alcanzan hasta **501 habitantes**.
+- La integración de Pandas, Matplotlib, Folium y Streamlit permitió desarrollar una aplicación interactiva para apoyar el análisis de accesibilidad a parques urbanos.
+""")
