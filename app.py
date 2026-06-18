@@ -105,7 +105,7 @@ st.info(
     "población cercana a 17 656 habitantes. Este resultado sugiere una disponibilidad "
     "limitada de áreas verdes urbanas para la población residente. "
 
-    "Cabe destacar que el en polígono correspondiente al parque de los Angeles "
+    "Cabe destacar que en el polígono correspondiente al parque de los Ángeles "
     "se debe actualizar las áreas verdes reales en la actualidad debido a cambios desde que se realizó la toma de datos."
 )
 
